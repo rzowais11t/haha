@@ -48,7 +48,7 @@ export default function Hero() {
       </h1>
       <div className="relative z-[2] pb-12 grid grid-cols-1 min-[900px]:grid-cols-2 gap-8">
         <div></div>
-        <p className="text-[clamp(1.2rem,2.5vw,1.75rem)] leading-[1.45] max-w-[620px] ml-0 min-[900px]:ml-auto mb-[35px] font-normal [text-shadow:0_2px_10px_rgba(0,0,0,0.8)] reveal">
+        <p className="text-[clamp(1.2rem,2.5vw,1.75rem)] leading-[1.45] max-w-[620px] ml-0 min-[900px]:ml-auto mb-[50px] font-normal [text-shadow:0_2px_10px_rgba(0,0,0,0.8)] reveal">
           We Engineer AI systems to Eliminate Inefficiencies, and Create Measurable Competitive Advantage.
         </p>
       </div>
