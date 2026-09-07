@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { SoundProvider } from './context/SoundContext';
 import Preloader from './components/Preloader';
 import Header from './components/Header';
@@ -140,6 +141,9 @@ export default function App() {
 
       {/* 6. Global Persistent Footer */}
       <Footer />
+
+      {/* 7. Vercel Speed Insights */}
+      <SpeedInsights />
     </SoundProvider>
   );
 }
